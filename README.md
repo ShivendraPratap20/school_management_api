@@ -221,36 +221,6 @@ DELETE /api/deleteSchool/60001
 ```
 ### Databases
 
-This project uses MySQL as the primary database engine to store school information. For online deployment or cloud-based environments, you can use TiDB, a MySQL-compatible distributed database service that provides high availability and scalability.
-
-1. Local MySQL Setup
-Install MySQL on your local machine (if not already installed).
-
-Create a new database (e.g., school\_db).
-
-Use the following SQL to create the necessary schools table:
-
-CREATE TABLE IF NOT EXISTS schools(
-    id INT AUTO\_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    address VARCHAR(100) NOT NULL,
-    latitude FLOAT NOT NULL,
-    longitude FLOAT NOT NULL
-);
-
-Using TiDB for Online MySQL-Compatible Database
-TiDB is a distributed SQL database fully compatible with MySQL clients and protocols.
-
-You can create a TiDB cluster or use TiDB Cloud to manage your database online.
-
-Connect your Node.js application to TiDB exactly as you would with MySQL by using the same connection credentials (host, port, user, password, and database name)."
-
-Here's your improved **Database** section in clear markdown, formatted for a README file:
-
-***
-
-###Databases
-
 This project uses **MySQL** as the primary database engine to store school information. For online deployment or cloud-based environments, you can use **TiDB**—a MySQL-compatible distributed database service offering high availability and scalability.
 
 ### 1. Local MySQL Setup
