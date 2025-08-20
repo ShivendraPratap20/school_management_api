@@ -7,14 +7,6 @@ The School Management API is a simple and efficient backend system built using N
 ```http
 https://event-management-api-93d2.onrender.com
 ```
-## Installation
-
-Install my-project with npm
-
-```bash
-  npm install my-project
-  cd my-project
-```
     
 ## API Reference
 
